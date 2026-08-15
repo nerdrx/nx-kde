@@ -1,0 +1,10 @@
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="NX Hub">
+  <defs>
+    <linearGradient id="nxg" x1="0.15" y1="0" x2="0.85" y2="1"><stop offset="0" stop-color="#9f63f7"/><stop offset="0.5" stop-color="#7718f2"/><stop offset="1" stop-color="#4812a0"/></linearGradient>
+    <clipPath id="nxt"><rect x="0" y="183" width="512" height="146"/></clipPath>
+  </defs>
+  <path d="M240.13,18.49Q256,10 271.87,18.49L470.13,124.51Q486,133 486,151L486,361Q486,379 470.13,387.49L271.87,493.51Q256,502 240.13,493.51L41.87,387.49Q26,379 26,361L26,151Q26,133 41.87,124.51Z" fill="url(#nxg)"/>
+  <g clip-path="url(#nxt)">
+  <path d="M135.93,375L135.93,183L219.93,329L219.93,137 M266.06,143.13L395.94,368.87M395.94,143.13L266.06,368.87" fill="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke="#f6f1ff" stroke-width="40"/>
+  </g>
+</svg>
