@@ -2,13 +2,13 @@
   <defs>
     <linearGradient id="body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a1f45"/><stop offset="1" stop-color="#171028"/></linearGradient>
     <linearGradient id="edge" x1="0" y1="0" x2=".78" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".38" stop-color="#efeaff" stop-opacity=".92"/><stop offset="1" stop-color="#c6bbec" stop-opacity=".76"/></linearGradient>
-    <linearGradient id="sheen" x1="0" y1="0" x2=".55" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".26"/><stop offset=".36" stop-color="#ffffff" stop-opacity=".07"/><stop offset=".7" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2=".55" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".17"/><stop offset=".36" stop-color="#ffffff" stop-opacity=".05"/><stop offset=".7" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
     <linearGradient id="live" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7700ff"/><stop offset=".55" stop-color="#9a3cff"/><stop offset="1" stop-color="#00e5ff"/></linearGradient>
-    <filter id="drop" x="-45%" y="-45%" width="190%" height="190%"><feDropShadow dx="0" dy=".7" stdDeviation=".6" flood-color="#04020a" flood-opacity=".45"/></filter>
+    <filter id="drop" x="-45%" y="-45%" width="190%" height="190%"><feDropShadow dx="0" dy=".7" stdDeviation=".5" flood-color="#04020a" flood-opacity=".4"/></filter>
     <path id="s0" d="M11.9 7.4H21.1V10.1H17.7V21.9H21.1V24.6H11.9V21.9H15.3V10.1H11.9Z"/>
   </defs>
   <g filter="url(#drop)">
-    <use xlink:href="#s0" fill="url(#body)" stroke="url(#edge)" stroke-width="1.4" stroke-linejoin="round"/>
+    <use xlink:href="#s0" fill="url(#body)" stroke="url(#edge)" stroke-width="0.85" stroke-linejoin="round"/>
     <use xlink:href="#s0" fill="url(#sheen)"/>
   </g>
   <g fill="#00e5ff" opacity=".9">

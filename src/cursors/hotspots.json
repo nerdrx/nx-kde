@@ -5,7 +5,13 @@
     "like breeze_cursors/cursors_scalable, so glass edges and drop shadows have",
     "room to bleed. tools/build_cursors.py scales hotspots by px/32.",
     "'frames'/'delay' mark animated shapes: the build rotates every element",
-    "carrying transform=\"rotate(0 cx cy)\" through a full turn."
+    "carrying transform=\"rotate(0 cx cy)\" through a full turn.",
+    "RIM WEIGHT: the near-white outline is a centred stroke of 0.9 canvas units",
+    "(0.85 on badges and secondary parts, 0.8 on small details). That works out",
+    "to ~1px at nominal 24 and ~2px at nominal 48/64 - the same weight as",
+    "breeze_cursors. Do not push it past 1.0; it reads as a border, not a rim.",
+    "Glyph strokes (the help '?', the alias curve, the spinner arcs) are not",
+    "rims and keep their own heavier weights."
   ],
   "canvas": 32,
   "nominal_size": 24,
