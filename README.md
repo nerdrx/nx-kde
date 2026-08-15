@@ -22,6 +22,12 @@ suite.
 | Konsole color scheme | NX |
 | SDDM login theme (optional, root) | nx |
 
+Want the wallpaper to *move*? The companion
+[**nx-nebula**](https://github.com/nerdrx/nx-nebula) repo is a live wallpaper
+plugin with the same nebula drifting on slow orbits, plus a clock overlay and
+an ultrawide-aware photo gallery. This suite ships the static renders (used by
+the lock screen, SDDM, and splash, which can't run plugins).
+
 ## Install
 
 ```bash
