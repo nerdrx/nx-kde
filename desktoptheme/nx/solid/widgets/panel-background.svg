@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="170" height="68" viewBox="0 0 170 68">
+  <title>NX panel background — solid</title>
+  <defs>
+    <linearGradient id="nx-edge-v" gradientUnits="userSpaceOnUse" x1="0" y1="10" x2="0" y2="58">
+      <stop offset="0.0" stop-color="#ffffff" stop-opacity="0.0868"/>
+      <stop offset="1.0" stop-color="#ffffff" stop-opacity="0.0124"/>
+    </linearGradient>
+    <linearGradient id="nx-edge-vr" gradientUnits="userSpaceOnUse" x1="0" y1="10" x2="0" y2="58">
+      <stop offset="0.0" stop-color="#000000" stop-opacity="0.1"/>
+      <stop offset="1.0" stop-color="#000000" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="nx-fill-thick" gradientUnits="userSpaceOnUse" x1="0" y1="82" x2="0" y2="114">
+      <stop offset="0.0" stop-color="#171028" stop-opacity="1.0"/>
+      <stop offset="1.0" stop-color="#171028" stop-opacity="1.0"/>
+    </linearGradient>
+    <linearGradient id="nx-sh-top" gradientUnits="userSpaceOnUse" x1="0" y1="10" x2="0" y2="0">
+      <stop offset="0.0" stop-color="#000000" stop-opacity="0.15"/>
+      <stop offset="0.3" stop-color="#000000" stop-opacity="0.0735"/>
+      <stop offset="0.6" stop-color="#000000" stop-opacity="0.024"/>
+      <stop offset="1.0" stop-color="#000000" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="nx-sh-bottom" gradientUnits="userSpaceOnUse" x1="0" y1="58" x2="0" y2="68">
+      <stop offset="0.0" stop-color="#000000" stop-opacity="0.3"/>
+      <stop offset="0.3" stop-color="#000000" stop-opacity="0.147"/>
+      <stop offset="0.6" stop-color="#000000" stop-opacity="0.048"/>
+      <stop offset="1.0" stop-color="#000000" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="nx-sh-left" gradientUnits="userSpaceOnUse" x1="61" y1="0" x2="51" y2="0">
+      <stop offset="0.0" stop-color="#000000" stop-opacity="0.15"/>
+      <stop offset="0.3" stop-color="#000000" stop-opacity="0.0735"/>
+      <stop offset="0.6" stop-color="#000000" stop-opacity="0.024"/>
+      <stop offset="1.0" stop-color="#000000" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="nx-sh-right" gradientUnits="userSpaceOnUse" x1="109" y1="0" x2="119" y2="0">
+      <stop offset="0.0" stop-color="#000000" stop-opacity="0.22"/>
+      <stop offset="0.3" stop-color="#000000" stop-opacity="0.1078"/>
+      <stop offset="0.6" stop-color="#000000" stop-opacity="0.0352"/>
+      <stop offset="1.0" stop-color="#000000" stop-opacity="0.0"/>
+    </linearGradient>
+    <radialGradient id="nx-shc-topleft" gradientUnits="userSpaceOnUse" cx="69" cy="18" r="18">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.15"/>
+      <stop offset="0.4444" stop-color="#000000" stop-opacity="0.15"/>
+      <stop offset="0.6111" stop-color="#000000" stop-opacity="0.0735"/>
+      <stop offset="0.7778" stop-color="#000000" stop-opacity="0.024"/>
+      <stop offset="1.0" stop-color="#000000" stop-opacity="0.0"/>
+    </radialGradient>
+    <radialGradient id="nx-shc-topright" gradientUnits="userSpaceOnUse" cx="101" cy="18" r="18">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.22"/>
+      <stop offset="0.4444" stop-color="#000000" stop-opacity="0.22"/>
+      <stop offset="0.6111" stop-color="#000000" stop-opacity="0.1078"/>
+      <stop offset="0.7778" stop-color="#000000" stop-opacity="0.0352"/>
+      <stop offset="1.0" stop-color="#000000" stop-opacity="0.0"/>
+    </radialGradient>
+    <radialGradient id="nx-shc-bottomleft" gradientUnits="userSpaceOnUse" cx="69" cy="50" r="18">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.22"/>
+      <stop offset="0.4444" stop-color="#000000" stop-opacity="0.22"/>
+      <stop offset="0.6111" stop-color="#000000" stop-opacity="0.1078"/>
+      <stop offset="0.7778" stop-color="#000000" stop-opacity="0.0352"/>
+      <stop offset="1.0" stop-color="#000000" stop-opacity="0.0"/>
+    </radialGradient>
+    <radialGradient id="nx-shc-bottomright" gradientUnits="userSpaceOnUse" cx="101" cy="50" r="18">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.3"/>
+      <stop offset="0.4444" stop-color="#000000" stop-opacity="0.3"/>
+      <stop offset="0.6111" stop-color="#000000" stop-opacity="0.147"/>
+      <stop offset="0.7778" stop-color="#000000" stop-opacity="0.048"/>
+      <stop offset="1.0" stop-color="#000000" stop-opacity="0.0"/>
+    </radialGradient>
+  </defs>
+  <!-- frame -->
+  <g id="topleft">
+    <path d="M 0,18 H 8 V 10 A 8,8 0 0 0 0,18 Z" fill="#171028"/>
+    <path d="M 8,10 A 8,8 0 0 0 0,18 H 1 A 7,7 0 0 1 8,11 Z" fill="#ffffff" fill-opacity="0.149"/>
+  </g>
+  <g id="top">
+    <rect x="8" y="10" width="32" height="8" fill="#171028"/>
+    <rect x="8" y="10" width="32" height="1" fill="#ffffff" fill-opacity="0.112"/>
+  </g>
+  <g id="topright">
+    <path d="M 40,10 V 18 H 48 A 8,8 0 0 0 40,10 Z" fill="#171028"/>
+    <path d="M 48,18 A 8,8 0 0 0 40,10 V 11 A 7,7 0 0 1 47,18 Z" fill="#ffffff" fill-opacity="0.081"/>
+  </g>
+  <g id="left">
+    <rect x="0" y="18" width="8" height="32" fill="#171028"/>
+    <rect x="0" y="18" width="1" height="32" fill="url(#nx-edge-v)"/>
+  </g>
+  <g id="center">
+    <rect x="8" y="18" width="32" height="32" fill="#171028"/>
+  </g>
+  <g id="right">
+    <rect x="40" y="18" width="8" height="32" fill="#171028"/>
+    <rect x="47" y="18" width="1" height="32" fill="url(#nx-edge-vr)"/>
+  </g>
+  <g id="bottomleft">
+    <path d="M 8,58 V 50 H 0 A 8,8 0 0 0 8,58 Z" fill="#171028"/>
+    <path d="M 0,50 A 8,8 0 0 0 8,58 V 57 A 7,7 0 0 1 1,50 Z" fill="#000000" fill-opacity="0.16"/>
+  </g>
+  <g id="bottom">
+    <rect x="8" y="50" width="32" height="8" fill="#171028"/>
+    <rect x="8" y="57" width="32" height="1" fill="#000000" fill-opacity="0.22"/>
+  </g>
+  <g id="bottomright">
+    <path d="M 40,58 V 50 H 48 A 8,8 0 0 1 40,58 Z" fill="#171028"/>
+    <path d="M 48,50 A 8,8 0 0 1 40,58 V 57 A 7,7 0 0 0 47,50 Z" fill="#000000" fill-opacity="0.16"/>
+  </g>
+  <!-- margin hints (never painted; only their bounds are read) -->
+  <rect id="hint-top-margin" x="20" y="10" width="4" height="4" fill="#ff00ff"/>
+  <rect id="hint-bottom-margin" x="20" y="54" width="4" height="4" fill="#ff00ff"/>
+  <rect id="hint-left-margin" x="0" y="32" width="4" height="4" fill="#ff00ff"/>
+  <rect id="hint-right-margin" x="44" y="32" width="4" height="4" fill="#ff00ff"/>
+  <rect id="hint-top-inset" x="20" y="10" width="4" height="0.00000001" fill="#00ff00"/>
+  <rect id="hint-bottom-inset" x="20" y="58" width="4" height="0.00000001" fill="#00ff00"/>
+  <rect id="hint-left-inset" x="0" y="32" width="0.00000001" height="4" fill="#00ff00"/>
+  <rect id="hint-right-inset" x="48" y="32" width="0.00000001" height="4" fill="#00ff00"/>
+  <!-- thick panel -->
+  <rect id="thick-center" x="8" y="82" width="32" height="32" fill="url(#nx-fill-thick)"/>
+  <rect id="thick-hint-top-margin" x="8" y="74" width="4" height="8" fill="#800080"/>
+  <rect id="thick-hint-bottom-margin" x="16" y="114" width="4" height="8" fill="#800080"/>
+  <rect id="thick-hint-left-margin" x="0" y="82" width="8" height="4" fill="#800080"/>
+  <rect id="thick-hint-right-margin" x="48" y="82" width="8" height="4" fill="#800080"/>
+  <!-- mask: opaque silhouette, gives KWin the blur-behind region -->
+  <path id="mask-topleft" d="M 122,18 H 130 V 10 A 8,8 0 0 0 122,18 Z" fill="#000000"/>
+  <rect id="mask-top" x="130" y="10" width="32" height="8" fill="#000000"/>
+  <path id="mask-topright" d="M 162,10 V 18 H 170 A 8,8 0 0 0 162,10 Z" fill="#000000"/>
+  <rect id="mask-left" x="122" y="18" width="8" height="32" fill="#000000"/>
+  <rect id="mask-center" x="130" y="18" width="32" height="32" fill="#000000"/>
+  <rect id="mask-right" x="162" y="18" width="8" height="32" fill="#000000"/>
+  <path id="mask-bottomleft" d="M 130,58 V 50 H 122 A 8,8 0 0 0 130,58 Z" fill="#000000"/>
+  <rect id="mask-bottom" x="130" y="50" width="32" height="8" fill="#000000"/>
+  <path id="mask-bottomright" d="M 162,58 V 50 H 170 A 8,8 0 0 1 162,58 Z" fill="#000000"/>
+  <!-- shadow (the 0.001-alpha rects only pad element bounds) -->
+  <g id="shadow-topleft">
+    <path d="M 69,10 A 8,8 0 0 0 61,18 H 51 V 0 H 69 Z" fill="url(#nx-shc-topleft)"/>
+    <path d="M 61,18 H 69 V 10 A 8,8 0 0 0 61,18 Z" fill="#000000" fill-opacity="0.001"/>
+  </g>
+  <g id="shadow-top">
+    <rect x="69" y="0" width="32" height="10" fill="url(#nx-sh-top)"/>
+    <rect x="69" y="10" width="32" height="8" fill="#000000" fill-opacity="0.001"/>
+  </g>
+  <g id="shadow-topright">
+    <path d="M 101,10 A 8,8 0 0 1 109,18 H 119 V 0 H 101 Z" fill="url(#nx-shc-topright)"/>
+    <path d="M 101,10 V 18 H 109 A 8,8 0 0 0 101,10 Z" fill="#000000" fill-opacity="0.001"/>
+  </g>
+  <g id="shadow-left">
+    <rect x="51" y="18" width="10" height="32" fill="url(#nx-sh-left)"/>
+    <rect x="61" y="18" width="8" height="32" fill="#000000" fill-opacity="0.001"/>
+  </g>
+  <g id="shadow-center">
+    <rect x="69" y="18" width="32" height="32" fill="#000000" fill-opacity="0.001"/>
+  </g>
+  <g id="shadow-right">
+    <rect x="109" y="18" width="10" height="32" fill="url(#nx-sh-right)"/>
+    <rect x="101" y="18" width="8" height="32" fill="#000000" fill-opacity="0.001"/>
+  </g>
+  <g id="shadow-bottomleft">
+    <path d="M 61,50 A 8,8 0 0 0 69,58 V 68 H 51 V 50 Z" fill="url(#nx-shc-bottomleft)"/>
+    <path d="M 69,58 V 50 H 61 A 8,8 0 0 0 69,58 Z" fill="#000000" fill-opacity="0.001"/>
+  </g>
+  <g id="shadow-bottom">
+    <rect x="69" y="58" width="32" height="10" fill="url(#nx-sh-bottom)"/>
+    <rect x="69" y="50" width="32" height="8" fill="#000000" fill-opacity="0.001"/>
+  </g>
+  <g id="shadow-bottomright">
+    <path d="M 109,50 A 8,8 0 0 1 101,58 V 68 H 119 V 50 Z" fill="url(#nx-shc-bottomright)"/>
+    <path d="M 101,58 V 50 H 109 A 8,8 0 0 1 101,58 Z" fill="#000000" fill-opacity="0.001"/>
+  </g>
+  <!-- shadow margin/inset hints -->
+  <rect id="shadow-hint-top-margin" x="85" y="0" width="2" height="10" fill="#ff00ff"/>
+  <rect id="shadow-hint-bottom-margin" x="85" y="58" width="2" height="10" fill="#ff00ff"/>
+  <rect id="shadow-hint-left-margin" x="51" y="20" width="10" height="2" fill="#ff00ff"/>
+  <rect id="shadow-hint-right-margin" x="109" y="24" width="10" height="2" fill="#ff00ff"/>
+  <rect id="shadow-hint-top-inset" x="89" y="0" width="2" height="10" fill="#00ff00"/>
+  <rect id="shadow-hint-bottom-inset" x="89" y="58" width="2" height="10" fill="#00ff00"/>
+  <rect id="shadow-hint-left-inset" x="51" y="24" width="10" height="2" fill="#00ff00"/>
+  <rect id="shadow-hint-right-inset" x="109" y="20" width="10" height="2" fill="#00ff00"/>
+</svg>

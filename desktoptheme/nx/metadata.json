@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "nerdrx"
+            }
+        ],
+        "Category": "Plasma Theme",
+        "Description": "Liquid glass on deep space — the NX design language for Plasma",
+        "EnabledByDefault": true,
+        "Id": "nx",
+        "License": "GPL-3.0-or-later",
+        "Name": "NX",
+        "Version": "1.0",
+        "Website": "https://github.com/nerdrx/nx-kde"
+    },
+    "X-Plasma-API": "5.0"
+}

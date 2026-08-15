@@ -1,0 +1,30 @@
+[Settings]
+# Anything NX does not override is resolved through breeze-dark and then
+# Breeze ("default"). Inherited SVGs are still recoloured from ../colors,
+# so they land on the NX palette without being duplicated here.
+FallbackTheme=breeze-dark
+
+[BlurBehindEffect]
+# KWin blurs whatever region FrameSvg::mask() reports, i.e. the mask-*
+# elements in panel-background / dialogs-background / tooltip.
+enabled=true
+
+[ContrastEffect]
+# Background contrast behind the same masked region. Keeps #efeaff text
+# comfortable over a bright wallpaper and pushes the violet/cyan of the
+# nebula through the glass instead of graying it out.
+# Enabling this also makes Plasma prefer the translucent/ image variants.
+enabled=true
+contrast=1.0
+intensity=0.85
+saturation=1.45
+
+[AdaptiveTransparency]
+# Lets the panel go solid/ when a window touches it, translucent otherwise.
+enabled=true
+
+[Wallpaper]
+defaultWallpaperTheme=NX-Nebula
+defaultFileSuffix=.png
+defaultWidth=1920
+defaultHeight=1080

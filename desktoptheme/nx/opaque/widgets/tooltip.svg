@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="158" height="64" viewBox="0 0 158 64">
+  <title>NX tooltip background — opaque (no compositing)</title>
+  <defs>
+    <linearGradient id="nx-edge-lit" gradientUnits="userSpaceOnUse" x1="0" y1="10" x2="44" y2="54">
+      <stop offset="0.0" stop-color="#e2c8ff" stop-opacity="0.3844"/>
+      <stop offset="0.24" stop-color="#9a3cff" stop-opacity="0.186"/>
+      <stop offset="0.52" stop-color="#00e5ff" stop-opacity="0.062"/>
+      <stop offset="1.0" stop-color="#000000" stop-opacity="0.186"/>
+    </linearGradient>
+  </defs>
+  <!-- frame -->
+  <g id="topleft">
+    <path d="M 0,16 H 6 V 10 A 6,6 0 0 0 0,16 Z" fill="#1d1433"/>
+    <path d="M 6,10 A 6,6 0 0 0 0,16 H 1 A 5,5 0 0 1 6,11 Z" fill="url(#nx-edge-lit)"/>
+  </g>
+  <g id="top">
+    <rect x="6" y="10" width="32" height="6" fill="#1d1433"/>
+    <rect x="6" y="10" width="32" height="1" fill="url(#nx-edge-lit)"/>
+  </g>
+  <g id="topright">
+    <path d="M 38,10 V 16 H 44 A 6,6 0 0 0 38,10 Z" fill="#1d1433"/>
+    <path d="M 44,16 A 6,6 0 0 0 38,10 V 11 A 5,5 0 0 1 43,16 Z" fill="url(#nx-edge-lit)"/>
+  </g>
+  <g id="left">
+    <rect x="0" y="16" width="6" height="32" fill="#1d1433"/>
+    <rect x="0" y="16" width="1" height="32" fill="url(#nx-edge-lit)"/>
+  </g>
+  <g id="center">
+    <rect x="6" y="16" width="32" height="32" fill="#1d1433"/>
+  </g>
+  <g id="right">
+    <rect x="38" y="16" width="6" height="32" fill="#1d1433"/>
+    <rect x="43" y="16" width="1" height="32" fill="url(#nx-edge-lit)"/>
+  </g>
+  <g id="bottomleft">
+    <path d="M 6,54 V 48 H 0 A 6,6 0 0 0 6,54 Z" fill="#1d1433"/>
+    <path d="M 0,48 A 6,6 0 0 0 6,54 V 53 A 5,5 0 0 1 1,48 Z" fill="url(#nx-edge-lit)"/>
+  </g>
+  <g id="bottom">
+    <rect x="6" y="48" width="32" height="6" fill="#1d1433"/>
+    <rect x="6" y="53" width="32" height="1" fill="url(#nx-edge-lit)"/>
+  </g>
+  <g id="bottomright">
+    <path d="M 38,54 V 48 H 44 A 6,6 0 0 1 38,54 Z" fill="#1d1433"/>
+    <path d="M 44,48 A 6,6 0 0 1 38,54 V 53 A 5,5 0 0 0 43,48 Z" fill="url(#nx-edge-lit)"/>
+  </g>
+  <!-- margin hints (never painted; only their bounds are read) -->
+  <rect id="hint-top-margin" x="20" y="10" width="4" height="4" fill="#ff00ff"/>
+  <rect id="hint-bottom-margin" x="20" y="50" width="4" height="4" fill="#ff00ff"/>
+  <rect id="hint-left-margin" x="0" y="30" width="4" height="4" fill="#ff00ff"/>
+  <rect id="hint-right-margin" x="40" y="30" width="4" height="4" fill="#ff00ff"/>
+  <!-- mask: opaque silhouette, gives KWin the blur-behind region -->
+  <path id="mask-topleft" d="M 114,16 H 120 V 10 A 6,6 0 0 0 114,16 Z" fill="#000000"/>
+  <rect id="mask-top" x="120" y="10" width="32" height="6" fill="#000000"/>
+  <path id="mask-topright" d="M 152,10 V 16 H 158 A 6,6 0 0 0 152,10 Z" fill="#000000"/>
+  <rect id="mask-left" x="114" y="16" width="6" height="32" fill="#000000"/>
+  <rect id="mask-center" x="120" y="16" width="32" height="32" fill="#000000"/>
+  <rect id="mask-right" x="152" y="16" width="6" height="32" fill="#000000"/>
+  <path id="mask-bottomleft" d="M 120,54 V 48 H 114 A 6,6 0 0 0 120,54 Z" fill="#000000"/>
+  <rect id="mask-bottom" x="120" y="48" width="32" height="6" fill="#000000"/>
+  <path id="mask-bottomright" d="M 152,54 V 48 H 158 A 6,6 0 0 1 152,54 Z" fill="#000000"/>
+</svg>
