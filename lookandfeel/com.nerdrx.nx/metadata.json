@@ -1,0 +1,17 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "xlermer@gmail.com",
+                "Name": "nerdrx"
+            }
+        ],
+        "Category": "",
+        "Description": "Liquid glass on deep space",
+        "Id": "com.nerdrx.nx",
+        "License": "GPL-3.0-or-later",
+        "Name": "NX",
+        "Website": "https://github.com/nerdrx/nx-kde"
+    }
+}
