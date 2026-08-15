@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "nerdrx"
+            }
+        ],
+        "Category": "Window Decoration",
+        "Description": "Liquid glass on deep space — violet-lit window decorations",
+        "Id": "NX",
+        "License": "GPL-3.0-or-later",
+        "Name": "NX",
+        "Version": "1.0",
+        "Website": "https://github.com/nerdrx/nx-kde"
+    },
+    "X-KDE-ServiceTypes": [
+        "KWin/Decoration"
+    ]
+}

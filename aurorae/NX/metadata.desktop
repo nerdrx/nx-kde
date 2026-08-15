@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=NX
+Comment=Liquid glass on deep space — violet-lit window decorations
+Type=Service
+X-KDE-ServiceTypes=KWin/Decoration
+X-KDE-PluginInfo-Author=nerdrx
+X-KDE-PluginInfo-Name=NX
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=https://github.com/nerdrx/nx-kde
+X-KDE-PluginInfo-Category=Window Decoration
+X-KDE-PluginInfo-License=GPL-3.0-or-later
+X-KDE-PluginInfo-EnabledByDefault=true
