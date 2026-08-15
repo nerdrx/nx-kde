@@ -233,8 +233,17 @@ def build(kind, variant):
                    f'    <rect x="{ci}" y="{y1-1}" width="{CEN}" height="1" {bot_edge}/>'))
     b.append(cpiece("bottomright", cj, y1 - r, "bottomright", br_arc))
 
+    # ---- stretch hint ----------------------------------------------------
+    # FrameSvg TILES border elements by default (paintBorder ->
+    # drawTiledPixmap at the element's natural size) and only stretches them
+    # when this marker exists. Our borders carry gradients along their run
+    # axis, so tiling re-samples the ramp every 32px and scallops the edge.
+    # Presence is all that is checked; position and fill are irrelevant.
+    # (The centre is the opposite: stretched unless hint-tile-center exists.)
+    b.append("  <!-- hints (never painted; only presence/bounds are read) -->")
+    b.append('  <rect id="hint-stretch-borders" x="0" y="0" width="5" height="5" fill="#008000"/>')
+
     # ---- content margin / inset hints ------------------------------------
-    b.append("  <!-- margin hints (never painted; only their bounds are read) -->")
     m = 4
     b.append(f'  <rect id="hint-top-margin" x="20" y="{y0}" width="{m}" height="{m}" fill="#ff00ff"/>')
     b.append(f'  <rect id="hint-bottom-margin" x="20" y="{y1-m}" width="{m}" height="{m}" fill="#ff00ff"/>')

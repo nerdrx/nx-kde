@@ -97,7 +97,8 @@
     <path d="M 38,54 V 48 H 44 A 6,6 0 0 1 38,54 Z" fill="#1d1433"/>
     <path d="M 44,48 A 6,6 0 0 1 38,54 V 53 A 5,5 0 0 0 43,48 Z" fill="url(#nx-edge-lit)"/>
   </g>
-  <!-- margin hints (never painted; only their bounds are read) -->
+  <!-- hints (never painted; only presence/bounds are read) -->
+  <rect id="hint-stretch-borders" x="0" y="0" width="5" height="5" fill="#008000"/>
   <rect id="hint-top-margin" x="20" y="10" width="4" height="4" fill="#ff00ff"/>
   <rect id="hint-bottom-margin" x="20" y="50" width="4" height="4" fill="#ff00ff"/>
   <rect id="hint-left-margin" x="0" y="30" width="4" height="4" fill="#ff00ff"/>
