@@ -1,0 +1,16 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "xlermer@gmail.com",
+                "Name": "nerdrx"
+            }
+        ],
+        "Description": "Deep violet space with a barely-luminous nebula and a sparse starfield. The field layer of the NX design language.",
+        "Id": "NX-Nebula",
+        "License": "GPL-3.0-or-later",
+        "Name": "NX Nebula",
+        "Version": "1.0",
+        "Website": "https://github.com/nerdrx/nx-kde"
+    }
+}
