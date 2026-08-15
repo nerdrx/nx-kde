@@ -1,0 +1,18 @@
+NX Cursors
+==========
+
+NX Cursors is a derivative of the Breeze cursor theme.
+
+  Upstream:  breeze_cursors, from the Breeze theme
+  Copyright: (C) KDE Visual Design Group and the KDE community
+  Licence:   LGPL-3.0-or-later
+
+Every cursor silhouette, hotspot, animation frame and frame delay in this
+theme is Breeze's, unmodified. The only change is the colour palette, applied
+mechanically by tools/build_cursors.py (see COLOR_MAP in that file): Breeze's
+black bodies become NX ink #100a1e, its white outline becomes #f7f3ff, and its
+accent colours are mapped onto the NX roles - violet #7700ff, cyan #00e5ff,
+amber #ffb300, danger #ff5470.
+
+As a derivative work this theme is distributed under the same licence,
+LGPL-3.0-or-later.
