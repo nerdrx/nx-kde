@@ -10,14 +10,26 @@ All gradients use gradientUnits="userSpaceOnUse" in absolute document
 coordinates, so every 9-slice piece automatically samples the correct slice of
 one continuous fill/light ramp even though FrameSvg renders each piece on its
 own.  Fills are hardcoded NX colors: no current-color-scheme stylesheet hookup.
+
+Run from anywhere; it rewrites every SVG under desktoptheme/nx/.
 """
 import os
 
-OUT = "/run/media/nerdrx/Lex/claude/nx-kde/desktoptheme/nx"
+OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                   "desktoptheme", "nx")
 
 TY = 10          # frame tile top
 RING = 10        # shadow ring width
 CEN = 32         # center tile size
+
+# Corner radius per surface. DESIGN.md v1.1 "Angular, never rounded": every
+# radius lives in the 3-6px band, pills are banned. Note the radius is also the
+# width of the frame's border slices, so changing it moves the whole tile grid;
+# everything below is derived from it rather than hardcoded.
+#   dialog  6 = --radius     (sheets, the largest surface)
+#   panel   5 = --pill       (the bar; subtle against a screen edge)
+#   tooltip 4 = --radius-sm  (smallest surface, tightest cut)
+RADIUS = {"panel": 5, "dialog": 6, "tooltip": 4}
 
 # ---------------------------------------------------------------- geometry --
 
@@ -28,7 +40,8 @@ class Geo:
         self.T = 2 * r + CEN            # frame tile edge length
         self.fx = 0
         self.fy = TY
-        self.sx = 51 if r == 8 else 47  # shadow tile left
+        # frame tile occupies 0..T, then a 3px gutter before the shadow tile
+        self.sx = self.T + 3            # shadow tile left
         self.sfx = self.sx + RING       # shadow's copy of the frame, left
         self.mx = self.sx + self.T + 2 * RING + 3   # mask tile left
         self.W = self.mx + self.T
@@ -156,7 +169,7 @@ def lin(gid, x1, y1, x2, y2, stops, scale=1.0):
 # ------------------------------------------------------------------ writer --
 
 def build(kind, variant):
-    r = 6 if kind == "tooltip" else 8
+    r = RADIUS[kind]
     g = Geo(r)
     T, fy = g.T, g.fy
     x0, x1 = 0, T

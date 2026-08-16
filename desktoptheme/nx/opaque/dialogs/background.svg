@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="170" height="68" viewBox="0 0 170 68">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="158" height="64" viewBox="0 0 158 64">
   <title>NX dialog background — opaque (no compositing)</title>
   <defs>
-    <linearGradient id="nx-edge-lit" gradientUnits="userSpaceOnUse" x1="0" y1="10" x2="48" y2="58">
+    <linearGradient id="nx-edge-lit" gradientUnits="userSpaceOnUse" x1="0" y1="10" x2="44" y2="54">
       <stop offset="0.0" stop-color="#e2c8ff" stop-opacity="0.3844"/>
       <stop offset="0.24" stop-color="#9a3cff" stop-opacity="0.186"/>
       <stop offset="0.52" stop-color="#00e5ff" stop-opacity="0.062"/>
@@ -11,54 +11,54 @@
   </defs>
   <!-- frame -->
   <g id="topleft">
-    <path d="M 0,18 H 8 V 10 A 8,8 0 0 0 0,18 Z" fill="#171028"/>
-    <path d="M 8,10 A 8,8 0 0 0 0,18 H 1 A 7,7 0 0 1 8,11 Z" fill="url(#nx-edge-lit)"/>
+    <path d="M 0,16 H 6 V 10 A 6,6 0 0 0 0,16 Z" fill="#171028"/>
+    <path d="M 6,10 A 6,6 0 0 0 0,16 H 1 A 5,5 0 0 1 6,11 Z" fill="url(#nx-edge-lit)"/>
   </g>
   <g id="top">
-    <rect x="8" y="10" width="32" height="8" fill="#171028"/>
-    <rect x="8" y="10" width="32" height="1" fill="url(#nx-edge-lit)"/>
+    <rect x="6" y="10" width="32" height="6" fill="#171028"/>
+    <rect x="6" y="10" width="32" height="1" fill="url(#nx-edge-lit)"/>
   </g>
   <g id="topright">
-    <path d="M 40,10 V 18 H 48 A 8,8 0 0 0 40,10 Z" fill="#171028"/>
-    <path d="M 48,18 A 8,8 0 0 0 40,10 V 11 A 7,7 0 0 1 47,18 Z" fill="url(#nx-edge-lit)"/>
+    <path d="M 38,10 V 16 H 44 A 6,6 0 0 0 38,10 Z" fill="#171028"/>
+    <path d="M 44,16 A 6,6 0 0 0 38,10 V 11 A 5,5 0 0 1 43,16 Z" fill="url(#nx-edge-lit)"/>
   </g>
   <g id="left">
-    <rect x="0" y="18" width="8" height="32" fill="#171028"/>
-    <rect x="0" y="18" width="1" height="32" fill="url(#nx-edge-lit)"/>
+    <rect x="0" y="16" width="6" height="32" fill="#171028"/>
+    <rect x="0" y="16" width="1" height="32" fill="url(#nx-edge-lit)"/>
   </g>
   <g id="center">
-    <rect x="8" y="18" width="32" height="32" fill="#171028"/>
+    <rect x="6" y="16" width="32" height="32" fill="#171028"/>
   </g>
   <g id="right">
-    <rect x="40" y="18" width="8" height="32" fill="#171028"/>
-    <rect x="47" y="18" width="1" height="32" fill="url(#nx-edge-lit)"/>
+    <rect x="38" y="16" width="6" height="32" fill="#171028"/>
+    <rect x="43" y="16" width="1" height="32" fill="url(#nx-edge-lit)"/>
   </g>
   <g id="bottomleft">
-    <path d="M 8,58 V 50 H 0 A 8,8 0 0 0 8,58 Z" fill="#171028"/>
-    <path d="M 0,50 A 8,8 0 0 0 8,58 V 57 A 7,7 0 0 1 1,50 Z" fill="url(#nx-edge-lit)"/>
+    <path d="M 6,54 V 48 H 0 A 6,6 0 0 0 6,54 Z" fill="#171028"/>
+    <path d="M 0,48 A 6,6 0 0 0 6,54 V 53 A 5,5 0 0 1 1,48 Z" fill="url(#nx-edge-lit)"/>
   </g>
   <g id="bottom">
-    <rect x="8" y="50" width="32" height="8" fill="#171028"/>
-    <rect x="8" y="57" width="32" height="1" fill="url(#nx-edge-lit)"/>
+    <rect x="6" y="48" width="32" height="6" fill="#171028"/>
+    <rect x="6" y="53" width="32" height="1" fill="url(#nx-edge-lit)"/>
   </g>
   <g id="bottomright">
-    <path d="M 40,58 V 50 H 48 A 8,8 0 0 1 40,58 Z" fill="#171028"/>
-    <path d="M 48,50 A 8,8 0 0 1 40,58 V 57 A 7,7 0 0 0 47,50 Z" fill="url(#nx-edge-lit)"/>
+    <path d="M 38,54 V 48 H 44 A 6,6 0 0 1 38,54 Z" fill="#171028"/>
+    <path d="M 44,48 A 6,6 0 0 1 38,54 V 53 A 5,5 0 0 0 43,48 Z" fill="url(#nx-edge-lit)"/>
   </g>
   <!-- hints (never painted; only presence/bounds are read) -->
   <rect id="hint-stretch-borders" x="0" y="0" width="5" height="5" fill="#008000"/>
   <rect id="hint-top-margin" x="20" y="10" width="4" height="4" fill="#ff00ff"/>
-  <rect id="hint-bottom-margin" x="20" y="54" width="4" height="4" fill="#ff00ff"/>
-  <rect id="hint-left-margin" x="0" y="32" width="4" height="4" fill="#ff00ff"/>
-  <rect id="hint-right-margin" x="44" y="32" width="4" height="4" fill="#ff00ff"/>
+  <rect id="hint-bottom-margin" x="20" y="50" width="4" height="4" fill="#ff00ff"/>
+  <rect id="hint-left-margin" x="0" y="30" width="4" height="4" fill="#ff00ff"/>
+  <rect id="hint-right-margin" x="40" y="30" width="4" height="4" fill="#ff00ff"/>
   <!-- mask: opaque silhouette, gives KWin the blur-behind region -->
-  <path id="mask-topleft" d="M 122,18 H 130 V 10 A 8,8 0 0 0 122,18 Z" fill="#000000"/>
-  <rect id="mask-top" x="130" y="10" width="32" height="8" fill="#000000"/>
-  <path id="mask-topright" d="M 162,10 V 18 H 170 A 8,8 0 0 0 162,10 Z" fill="#000000"/>
-  <rect id="mask-left" x="122" y="18" width="8" height="32" fill="#000000"/>
-  <rect id="mask-center" x="130" y="18" width="32" height="32" fill="#000000"/>
-  <rect id="mask-right" x="162" y="18" width="8" height="32" fill="#000000"/>
-  <path id="mask-bottomleft" d="M 130,58 V 50 H 122 A 8,8 0 0 0 130,58 Z" fill="#000000"/>
-  <rect id="mask-bottom" x="130" y="50" width="32" height="8" fill="#000000"/>
-  <path id="mask-bottomright" d="M 162,58 V 50 H 170 A 8,8 0 0 1 162,58 Z" fill="#000000"/>
+  <path id="mask-topleft" d="M 114,16 H 120 V 10 A 6,6 0 0 0 114,16 Z" fill="#000000"/>
+  <rect id="mask-top" x="120" y="10" width="32" height="6" fill="#000000"/>
+  <path id="mask-topright" d="M 152,10 V 16 H 158 A 6,6 0 0 0 152,10 Z" fill="#000000"/>
+  <rect id="mask-left" x="114" y="16" width="6" height="32" fill="#000000"/>
+  <rect id="mask-center" x="120" y="16" width="32" height="32" fill="#000000"/>
+  <rect id="mask-right" x="152" y="16" width="6" height="32" fill="#000000"/>
+  <path id="mask-bottomleft" d="M 120,54 V 48 H 114 A 6,6 0 0 0 120,54 Z" fill="#000000"/>
+  <rect id="mask-bottom" x="120" y="48" width="32" height="6" fill="#000000"/>
+  <path id="mask-bottomright" d="M 152,54 V 48 H 158 A 6,6 0 0 1 152,54 Z" fill="#000000"/>
 </svg>
