@@ -32,6 +32,9 @@ color scheme, aurorae, icons, cursors, SDDM and splash must all agree.
 
 Rules that survive translation to every component:
 
+- **Angular, never rounded** (DESIGN v1.1): every radius sits in the 3–6px
+  band, pills are banned, and perfect circles are reserved for status dots
+  and spinners.
 - Light from the **upper-left** in every gradient, bevel, and edge.
 - Violet leads; cyan is a light inside materials, never a surface color.
 - No solid gray dividers — hairlines fade at both ends.

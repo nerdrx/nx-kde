@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="172" height="92" viewBox="0 0 172 92">
 <defs>
-<radialGradient id="rg1" gradientUnits="userSpaceOnUse" cx="101.4" cy="21.4" r="14.88"><stop offset="0" stop-color="#9a3cff" stop-opacity="0.627"/><stop offset="0.55" stop-color="#7700ff" stop-opacity="0.55"/><stop offset="1" stop-color="#7700ff" stop-opacity="0.231"/></radialGradient>
+<radialGradient id="rg1" gradientUnits="userSpaceOnUse" cx="101.4" cy="21.4" r="14.976"><stop offset="0" stop-color="#9a3cff" stop-opacity="0.627"/><stop offset="0.55" stop-color="#7700ff" stop-opacity="0.55"/><stop offset="1" stop-color="#7700ff" stop-opacity="0.231"/></radialGradient>
 <linearGradient id="lg2" gradientUnits="userSpaceOnUse" x1="95" y1="15" x2="113" y2="33"><stop offset="0" stop-color="#ffffff" stop-opacity="0.3"/><stop offset="0.34" stop-color="#ffffff" stop-opacity="0.09"/><stop offset="1" stop-color="#000000" stop-opacity="0.22"/></linearGradient>
-<radialGradient id="rg3" gradientUnits="userSpaceOnUse" cx="141.4" cy="21.4" r="14.88"><stop offset="0" stop-color="#9a3cff" stop-opacity="0.627"/><stop offset="0.55" stop-color="#7700ff" stop-opacity="0.55"/><stop offset="1" stop-color="#7700ff" stop-opacity="0.231"/></radialGradient>
+<radialGradient id="rg3" gradientUnits="userSpaceOnUse" cx="141.4" cy="21.4" r="14.976"><stop offset="0" stop-color="#9a3cff" stop-opacity="0.627"/><stop offset="0.55" stop-color="#7700ff" stop-opacity="0.55"/><stop offset="1" stop-color="#7700ff" stop-opacity="0.231"/></radialGradient>
 <linearGradient id="lg4" gradientUnits="userSpaceOnUse" x1="135" y1="15" x2="153" y2="33"><stop offset="0" stop-color="#ffffff" stop-opacity="0.3"/><stop offset="0.34" stop-color="#ffffff" stop-opacity="0.09"/><stop offset="1" stop-color="#000000" stop-opacity="0.22"/></linearGradient>
-<radialGradient id="rg5" gradientUnits="userSpaceOnUse" cx="21.4" cy="61.4" r="12.865"><stop offset="0" stop-color="#9a3cff" stop-opacity="0.775"/><stop offset="0.55" stop-color="#7700ff" stop-opacity="0.68"/><stop offset="1" stop-color="#7700ff" stop-opacity="0.286"/></radialGradient>
+<radialGradient id="rg5" gradientUnits="userSpaceOnUse" cx="21.4" cy="61.4" r="12.948"><stop offset="0" stop-color="#9a3cff" stop-opacity="0.775"/><stop offset="0.55" stop-color="#7700ff" stop-opacity="0.68"/><stop offset="1" stop-color="#7700ff" stop-opacity="0.286"/></radialGradient>
 <linearGradient id="lg6" gradientUnits="userSpaceOnUse" x1="15" y1="55" x2="33" y2="73"><stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/><stop offset="0.34" stop-color="#ffffff" stop-opacity="0.048"/><stop offset="1" stop-color="#000000" stop-opacity="0.22"/></linearGradient>
-<radialGradient id="rg7" gradientUnits="userSpaceOnUse" cx="61.4" cy="61.4" r="12.865"><stop offset="0" stop-color="#9a3cff" stop-opacity="0.775"/><stop offset="0.55" stop-color="#7700ff" stop-opacity="0.68"/><stop offset="1" stop-color="#7700ff" stop-opacity="0.286"/></radialGradient>
+<radialGradient id="rg7" gradientUnits="userSpaceOnUse" cx="61.4" cy="61.4" r="12.948"><stop offset="0" stop-color="#9a3cff" stop-opacity="0.775"/><stop offset="0.55" stop-color="#7700ff" stop-opacity="0.68"/><stop offset="1" stop-color="#7700ff" stop-opacity="0.286"/></radialGradient>
 <linearGradient id="lg8" gradientUnits="userSpaceOnUse" x1="55" y1="55" x2="73" y2="73"><stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/><stop offset="0.34" stop-color="#ffffff" stop-opacity="0.048"/><stop offset="1" stop-color="#000000" stop-opacity="0.22"/></linearGradient>
 </defs>
 <g id="active-center">
@@ -21,29 +21,29 @@
 </g>
 <g id="hover-center">
 <rect x="92" y="12" width="24" height="24" fill="#7700ff" fill-opacity="0.004"/>
-<circle cx="104" cy="24" r="9.6" fill="url(#rg1)"/>
-<circle cx="104" cy="24" r="9.1" fill="none" stroke="url(#lg2)" stroke-width="1"/>
+<rect x="94.4" y="14.4" width="19.2" height="19.2" rx="4" ry="4" fill="url(#rg1)"/>
+<rect x="94.9" y="14.9" width="18.2" height="18.2" rx="3.5" ry="3.5" fill="none" stroke="url(#lg2)" stroke-width="1"/>
 <path d="M 100.2,22.4 L 104,26.4 L 107.8,22.4" fill="none" stroke="#efeaff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1"/>
 <path d="M 100.6,19.6 L 107.4,19.6" fill="none" stroke="#efeaff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1"/>
 </g>
 <g id="hover-inactive-center">
 <rect x="132" y="12" width="24" height="24" fill="#7700ff" fill-opacity="0.004"/>
-<circle cx="144" cy="24" r="9.6" fill="url(#rg3)"/>
-<circle cx="144" cy="24" r="9.1" fill="none" stroke="url(#lg4)" stroke-width="1"/>
+<rect x="134.4" y="14.4" width="19.2" height="19.2" rx="4" ry="4" fill="url(#rg3)"/>
+<rect x="134.9" y="14.9" width="18.2" height="18.2" rx="3.5" ry="3.5" fill="none" stroke="url(#lg4)" stroke-width="1"/>
 <path d="M 140.2,22.4 L 144,26.4 L 147.8,22.4" fill="none" stroke="#efeaff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1"/>
 <path d="M 140.6,19.6 L 147.4,19.6" fill="none" stroke="#efeaff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1"/>
 </g>
 <g id="pressed-center">
 <rect x="12" y="52" width="24" height="24" fill="#7700ff" fill-opacity="0.004"/>
-<circle cx="24" cy="64" r="8.3" fill="url(#rg5)"/>
-<circle cx="24" cy="64" r="7.8" fill="none" stroke="url(#lg6)" stroke-width="1"/>
+<rect x="15.7" y="55.7" width="16.6" height="16.6" rx="4" ry="4" fill="url(#rg5)"/>
+<rect x="16.2" y="56.2" width="15.6" height="15.6" rx="3.5" ry="3.5" fill="none" stroke="url(#lg6)" stroke-width="1"/>
 <path d="M 20.656,62.592 L 24,66.112 L 27.344,62.592" fill="none" stroke="#efeaff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1"/>
 <path d="M 21.008,60.128 L 26.992,60.128" fill="none" stroke="#efeaff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1"/>
 </g>
 <g id="pressed-inactive-center">
 <rect x="52" y="52" width="24" height="24" fill="#7700ff" fill-opacity="0.004"/>
-<circle cx="64" cy="64" r="8.3" fill="url(#rg7)"/>
-<circle cx="64" cy="64" r="7.8" fill="none" stroke="url(#lg8)" stroke-width="1"/>
+<rect x="55.7" y="55.7" width="16.6" height="16.6" rx="4" ry="4" fill="url(#rg7)"/>
+<rect x="56.2" y="56.2" width="15.6" height="15.6" rx="3.5" ry="3.5" fill="none" stroke="url(#lg8)" stroke-width="1"/>
 <path d="M 60.656,62.592 L 64,66.112 L 67.344,62.592" fill="none" stroke="#efeaff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1"/>
 <path d="M 61.008,60.128 L 66.992,60.128" fill="none" stroke="#efeaff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1"/>
 </g>
